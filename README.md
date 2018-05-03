@@ -15,3 +15,5 @@ Ingress-nginx前提准备资源部署
 安装在没有RBAC角色环境中
 
     $ kubectl apply -f without-rbac.yaml
+
+# https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md
