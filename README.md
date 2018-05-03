@@ -27,5 +27,8 @@ Ingress-nginx前提准备资源部署
     
     $ kubectl get svc -n ingress-nginx
 
+查看绑定的域名信息
+    
+    $ kubectl get ingress
 
 https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md
