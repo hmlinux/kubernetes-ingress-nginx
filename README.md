@@ -16,4 +16,4 @@ Ingress-nginx前提准备资源部署
 
     $ kubectl apply -f without-rbac.yaml
 
-# https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md
+https://github.com/kubernetes/ingress-nginx/blob/master/docs/deploy/index.md
