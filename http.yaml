@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: httpd-test
+spec:
+  rules:
+  - host: web1.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: nginx
+          servicePort: 80
+  - host: web2.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: httpd
+          servicePort: 80
+
